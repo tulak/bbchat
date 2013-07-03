@@ -1,0 +1,1 @@
+<a class="cursor-pointer"><%= @name %></a>

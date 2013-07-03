@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  channel: MyString
+  user_id: 1
+  body: MyString
+
+two:
+  channel: MyString
+  user_id: 1
+  body: MyString

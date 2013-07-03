@@ -1,0 +1,70 @@
+@import "twitter/bootstrap/variables";
+
+.chat-bar {
+  ul.nav li {
+    position: relative;
+  }
+  .conversation {
+//    display:none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 200px;
+    margin-bottom: 1px;
+    
+    > div {
+      background: white;
+      border-top:1px #333 solid; 
+      border-left: 1px #333 solid;
+      border-right: 1px #333 solid;
+    }
+    .header {
+      background-color: #333;
+      color: white;
+      padding: 2px;
+    }
+    
+    .footer {
+      input {
+        width: 200 - 14px;
+        border-radius: 0;
+        margin: 0;
+      }
+      
+      form {
+        margin-bottom: 0;
+      }
+    }
+    
+    ul {
+      list-style: none;
+      margin:0 ;
+      height: 250px;
+      overflow: auto;
+    }
+    
+    li {
+      padding: 1px 5px;
+      
+      &.sent {
+        .author {
+          text-align: right;
+        }
+      }
+      
+      .author {
+        font-weight: bold;
+        display: block;
+      }
+      
+      .message {
+        font-size: 10px;
+      }
+      
+      .time {
+        font-size: 9px;
+        font-weight: normal;
+      }
+    }
+  }
+}

@@ -10,15 +10,19 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require mootools
-//= require mootools_ujs
+//= require jquery
+//= require jquery_ujs
+//= require private_pub
+//= require twitter/bootstrap
 //= require underscore
 //= require backbone
 //= require backbone.marionette
-//= require bbchat
+//= require_tree ./vendor
+//= require ./backbone/chat
 //= require_tree ../templates
-//= require_tree ./models
-//= require_tree ./collections
-//= require_tree ./views
-//= require_tree ./routers
+//= require_tree ./backbone/views
+//= require_tree ./backbone/modules
+//= require_tree ./backbone/models
+//= require_tree ./backbone/collections
+//= require_tree ./backbone/routers
 //= require_tree .

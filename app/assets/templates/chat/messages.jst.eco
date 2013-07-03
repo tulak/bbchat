@@ -1,0 +1,15 @@
+<div class="header">
+	<span class="minimize cursor-pointer"><i class="icon icon-minus"></i></span>
+	<span class="close-conversation cursor-pointer pull-right"><i class="icon icon-remove"></i></span>
+</div>
+
+<div class="main">
+	<ul class="messages">
+	</ul>
+</div>
+
+<div class="footer">
+	<form class="form-inline">
+		<input type="text" name="message" value="" id="message">
+	</form>
+</div>

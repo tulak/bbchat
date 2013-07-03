@@ -1,0 +1,7 @@
+<div class="author">
+	<%= @author %>
+	<span class="time"><%= @created_at%></span>
+</div>
+<span class="message">
+	<%= @body %>
+</span>

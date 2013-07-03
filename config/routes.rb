@@ -1,4 +1,13 @@
 Bbchat::Application.routes.draw do
+  namespace :api do
+    resources :users
+    post "messages/channel" => "messages#create"
+    get "messages/channel_for/:to/:user_id" => "messages#channel_for"
+    get "messages/channel" => "messages#channel"
+  end
+  
+  get '*path' => "site#index"
+
   root to: "site#index"
   get "site/index"
   # The priority is based upon order of creation: first created -> highest priority.

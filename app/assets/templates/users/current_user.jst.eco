@@ -1,0 +1,2 @@
+<div>Current user:</div>
+<h2><%= @name %></h2>

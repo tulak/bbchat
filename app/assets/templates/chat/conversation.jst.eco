@@ -1,0 +1,3 @@
+<a class="name cursor-pointer"><%= @name %></a>
+<div class="conversation">
+</div>

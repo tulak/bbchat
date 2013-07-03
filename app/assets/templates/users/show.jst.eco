@@ -1,0 +1,11 @@
+<h2><%= @name %>'s profile</h2>
+<p>
+	<b>Name: </b> <%= @name %>
+</p>
+<p>
+	<b>E-mail: </b> <%= @email %>
+</p>
+<div class="form-actions">
+	<a class="cursor-pointer btn" id="list-users"><i class="icon icon-th-list"></i> List Users</a>
+	<a class="cursor-pointer btn btn-warning" id="edit-user"><i class="icon icon-th-list"></i> Edit</a>
+</div>

@@ -1,0 +1,8 @@
+<td>
+	<i class="icon icon-edit cursor-pointer"></i>
+	<i class="icon icon-remove cursor-pointer"></i>
+	<i class="icon icon-envelope cursor-pointer"></i>
+	<i class="icon icon-user cursor-pointer" title="Set as Current user"></i>
+</td>
+<td class="name cursor-pointer"><%= @name %></td>
+<td><%= @email %></td>

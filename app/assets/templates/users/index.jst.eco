@@ -1,0 +1,12 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th width="80">
+				<div class="btn btn-primary btn-mini new-user"><i class="icon icon-plus"></i> New User </div>
+			</th>
+			<th>Name</th>
+			<th>Email</th>
+		</tr>
+	</thead>
+	<tbody class="tbody"></tbody>
+</table>
